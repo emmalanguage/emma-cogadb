@@ -1,0 +1,30 @@
+.cache
+.classpath
+.idea/*
+.idea/fileTemplates/*
+.metadata/*
+.project
+.settings
+target
+*.swp
+*.class
+*.iml
+dependency-reduced-pom.xml
+
+# Notebooks
+**/.ipynb_checkpoints
+
+# Ensime specific
+.ensime
+.ensime_cache
+
+# CoGaDB junk
+cogascript_timings.log
+minimal_api_c.debug.h.pch
+
+# Include some IntelliJ settings
+!.idea/codeStyleSettings.xml
+!.idea/copyright/
+!.idea/fileTemplates/
+!.idea/fileTemplates/internal/
+!.idea/inspectionProfiles/
